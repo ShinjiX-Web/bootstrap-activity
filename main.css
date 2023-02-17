@@ -11,29 +11,24 @@
 
 #right-one {
     display: flex;
+    letter-spacing: 2px;
     justify-content: end;
     background-color: rgb(171,131,60);
     border-radius: 15px;
-    padding: 10px 40px;
+    padding: 8px 40px;
     border: none;
-}
-
-#right-one{
     float: right;
     height: 40px;
     width: 200px;
     border: none;
     color: white;
-    background-color: rgb(171,131,60);
-    border-radius: 15px;
-    letter-spacing: 2px;
 }
 
 #right-image {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image:  linear-gradient(to left, rgba(0, 0, 0, 0), rgba(223, 209, 156, 0.87)),
+    background-image:  linear-gradient(to left, rgba(0, 0, 0, 0), rgba(223, 209, 156, 0.57)),
     url('./boy-and-mom.jpg');
     padding: 5% 5% 5% 3%;
 }
@@ -59,7 +54,7 @@
     font-weight: bold;
 }
 
-.text-secondary-emphasis.mytext {
+.text.mytext {
     margin: 0 30px;
     padding: 20px 0 0 60px;
     font-size: 20px;
@@ -99,4 +94,8 @@
 .section-image {
     width: auto;
     border-radius: 15px;
+}
+
+.hero-second {
+    padding-top: 7%;
 }
